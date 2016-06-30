@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+.wraper{margin-top:10px}
+#right_column{width:220px}
+#left_column{width:170px}
+#main{width:586px;padding-left:10px;overflow:hidden}
+#main .content{overflow:hidden}
+
+div.column{margin-top:10px}
+div.column h3{height:24px;font-size:13px;line-height:24px;background:url(../images/bg_all.png) right -94px repeat-x}
+div.column h3 span.right{width:4px;height:24px;background:url(../images/bg_all.png) right -204px no-repeat}
+div.column h3 span.title{width:90px;padding-left:10px;display:block;color:#fff;height:24px;background:url(../images/bg_all.png) left -60px no-repeat}
+div.column h3 a.right{color:#666;font-size:12px;font-weight:normal}
+div.column div.content{border:1px #ccc solid;border-top:none;padding:5px 10px}
+div.column div.content li{padding-left:10px;background:url(../images/list3.gif) 4px 10px no-repeat}
+
+div.ad1{padding:5px 20px}
+
+table.list{width:100%;border:1px #ccc solid}
+table.list thead td{background:#ccc;border:1px #fff solid}
+table.list tbody td{border:1px #ccc solid;}
+table.info{width:100%;border:1px #ccc solid}
+table.info td{border:1px #ccc solid;padding-left:12px;text-align:left}
+
+
+.page{text-align:center;padding:5px 0;line-height:2em}
+
+.orange{color:orange}
+.green{color:green}
+.red{color:red}
+
+#price,#supply{margin-top:0;}
+#price div.content{padding:0;padding-bottom:10px}
+#price div.content table td{border:1px #fff solid}
+#price div.content table thead td{background:#ccc}
+#price div.content p.title{text-align:center;color:red}
+
+.menus li,.cate li.cat{width:170px;height:25px;background:url(../images/button.png) center top no-repeat;text-align:center;margin-bottom:5px}
+.cate li.cat{height:auto}
+.cate li.cat div{background:#eee}
+.cate li.cat div a{width:82px;display:inline-block;border-bottom:1px #fff solid;background:#eee}
+.menus li a,.cate a.cat{letter-spacing:4px;color:#fff;display:block;line-height:25px;filter:Dropshadow(offx=1,offy=0,color=#444444)
+Dropshadow(offx=0,offy=1,color=#444444)
+Dropshadow(offx=0,offy=-1,color=#444444)
+Dropshadow(offx=-1,offy=0,color=#444444)
+Shadow(Strength=1, Direction=135, color=#999999);text-shadow:1px 1px 0px #333; }
+.menus li a:hover,.cate a.cat:hover{text-decoration:none;color:#db3f16;text-shadow:1px 1px 0px #fff;filter:Dropshadow(offx=1,offy=0,color=white)
+Dropshadow(offx=0,offy=1,color=white)
+Dropshadow(offx=0,offy=-1,color=white)
+Dropshadow(offx=-1,offy=0,color=white)
+Shadow(Strength=1, Direction=135, color=#eeeeee);}
+#main div.indent p{text-indent:2em}
+.main h1.title{background:url(../images/title.png) left top repeat-x;height:27px;overflow:hidden}
+.main h1.title span.border{width:2px;height:27px;background:url(../images/title.png)}
+.main h1.title span.left{background-position:left -37px}
+.main h1.title span.right{background-position:right -37px}
+.main h1.title span.title{padding-top:2px;font-size:14px;padding-left:25px;height:25px;background:url(../images/title.png) left bottom no-repeat;width:85px;margin-left:50px;}
+.main h1.title span.title span{display:block;margin-top:2px;color:#222;filter:Dropshadow(offx=1,offy=0,color=white)
+Dropshadow(offx=0,offy=1,color=white)
+Dropshadow(offx=0,offy=-1,color=white)
+Dropshadow(offx=-1,offy=0,color=white)
+Shadow(Strength=2, Direction=135, color=#333333);text-shadow:2px 2px 1px #999}
+.main div.content{padding:14px}
+.main div.content td{text-align:left}
+.main div.content ul.list li{border-bottom:1px #ccc dashed;padding-left:20px;background:url(../images/list3.gif) 4px center no-repeat}
+
+#new{border:1px #ccc solid;border-top:0}
+#new h1.ttl{line-height:2em;text-align:center;font-size:16px;font-weight:bold;}
+#new p.info{border:1px dashed #ddd;border-left:0;border-right:0;margin:10px 0;text-align:center}
+
+#main.enter{width:816px}
+#main.enter .content{padding:0}
+#main.enter table{width:100%;margin-top:10px}
+#main.enter table td{border:1px #ddd solid;line-height:1.2em;padding:5px 0}
+
+#maincontent{border:0}
+
+
+#category div.content{padding:0}
+#category div.content table.category{width:100%}
+#category div.content table.category td{border:1px #ccc solid;}
+
+table.job{width:100%}
+table.job caption{font-size:14px;font-weight:bold;line-height:30px;}
+table.job td{border:1px #ddd solid}
+
+
+#kn_menu{background:#eee;border:1px #ddd solid;width:168px;}
+#kn_menu h2{padding-left:36px;font-size:14px;line-height:32px;background:url(../images/t_icon.jpg) 18px 10px no-repeat}
+#kn_menu div.cate{padding-left:14px;}
+#kn_menu li{padding-left:24px;cursor:pointer}
+#kn_menu li.dir{background:url(../images/m_open.png) 4px 4px no-repeat;}
+#kn_menu li.dirc{background:url(../images/m_close.png) 4px 4px no-repeat}
+#kn_menu li.art{background:url(../images/art.png) 4px 4px no-repeat}
+
+#maincontent{width:100%;height:600px;margin:10px 0}
+
+
+

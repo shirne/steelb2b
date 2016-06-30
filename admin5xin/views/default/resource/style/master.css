@@ -1,0 +1,58 @@
+@charset "utf-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{padding:0;margin:0;} 
+html,body{font-size:12px;/*height:100%*/}
+table{border-collapse:collapse;border-spacing:0;font-size:12px} 
+fieldset,img,iframe{border:0;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:100%;}
+ol,ul,dl{list-style:none;}
+input{outline:none}
+img{vertical-align:middle}
+body{line-height:2em;}
+a{text-decoration:none;outline:none}
+a:hover{text-decoration:underline}
+
+.left{float:left;display:inline}
+.right{float:right;display:inline}
+.center{margin:0 auto;width:100%}
+.clear{display:block;width:100%;font-size:0px;line-height:0px;height:0px;visibility:hidden;overflow:hidden;clear:both}
+
+.red{color:red}
+
+body{padding:20px;font-family: 微软雅黑,Arial, Helvetica, sans-serif;}
+table{border:1px #eda solid;margin-top:10px;width:100%}
+table caption{text-align:left;font-size:14px;}
+table caption span,table caption font,table caption a{padding:0 5px}
+table tr.title td{background:#eda;}
+table tr.stitle td{background:#efdfaf;}
+table tr.title a.sort{color:#F30;}
+table tr.class a.active{color:#F60}
+table td{padding:2px;padding-left:5px;border:1px #eda solid}
+
+a{text-decoration:none;color:#630;padding:0 5px;display:inline-block}
+a:hover{text-decoration:underline;color:#960}
+
+input{vertical-align:middle; _padding-top:2px;}
+input[type=text],input[type=password]{background:#fff;border:1px #7f9db9 solid}
+input[type=button],input[type=submit],input[type=reset]{padding:2px 3px;margin:0 5px;}
+input[type=checkbox]{vertical-align:middle}
+input.Wdate{background:url(../images/datePicker.gif) right center no-repeat #fff}
+
+p.notice{background:#FF6;color:#390;border:1px #F60 solid}
+
+form span.tip{color:#999;padding-left:10px;}
+
+#result{padding:10px;margin:10px;border:1px #ccc solid}
+#result a{white-space:nowrap}
+#result a:hover{color:#aa0000;background:#ddd}
+
+#top{margin-bottom:20px;background:#ddd;border:1px #aaa solid;}
+#top p{text-align:center}
+
+div#bottom{line-height:2em;padding:5px 10px;margin-top:10px;background:#feb}
+div#bottom a{border:1px #FC6 solid;margin:0 2px;}
+div#bottom a:hover{background:#fff}
+div#bottom a.current{color:#999;border:none}
+div#bottom a.current:hover{background:none;text-decoration:none}
+
+
+div#footer{text-align:center;margin-top:20px;}

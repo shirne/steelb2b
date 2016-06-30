@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+#left_column{width:230px;}
+#right_column{width:230px;}
+#main{width:516px;padding-left:10px;margin-top:10px}
+div.column{margin-top:10px}
+div.column h3{height:24px;font-size:13px;line-height:24px;background:url(../images/bg_all.png) right -94px repeat-x}
+div.column h3 span.right{width:4px;height:24px;background:url(../images/bg_all.png) right -204px no-repeat}
+div.column h3 span.title{width:90px;padding-left:10px;display:block;color:#fff;height:24px;background:url(../images/bg_all.png) left -60px no-repeat}
+div.column h3 a.right{color:#666;font-size:12px;font-weight:normal}
+div.column div.content{border:1px #ccc solid;border-top:none;padding:10px}
+div.column div.content li{padding-left:10px;background:url(../images/list3.gif) 4px 10px no-repeat}
+
+/*广告*/
+div.ad{margin:0 auto;margin-top:10px;width:230px;}
+div.ad1{margin:0 auto;margin-top:10px;}
+div.ad1 img{width:516px;height:95px;}
+
+table td{white-space:nowrap}
+
+
+/*新闻切换栏目*/
+#tabcolumn h2{height:25px;font-size:13px;/*border:1px #ea5731 solid;border-bottom:none*/}
+#tabcolumn h2 li{float:left;width:129px;background:#fcb;background:url(../images/nh.png);}
+#tabcolumn h2 li a{color:#fff;line-height:25px;}
+#tabcolumn h2 li a:hover{text-decoration:none}
+#tabcolumn h2 li.active{background:url(../images/nhv.png);width:129px}
+#tabcolumn h2 li.active a{color:#f00}
+#tabcolumn h2 li a{display:block;text-align:center}
+#tabcolumn div.content{border:1px #ea5731 solid;border-top:none;height:280px;overflow:hidden}
+#tabcolumn div.content li.content{padding:10px;display:none}
+#tabcolumn div.content li.active{display:block}
+#tabcolumn div.content li.content li{border-bottom:1px dashed #fcb;padding-left:16px;background:url(../images/list2.gif) 4px center no-repeat}
+#tabcolumn div.content li.content li span.right{*margin-top:-12px;color:#aaa}
+#tabcolumn div.content li.content li.more{border:none}
+#tabcolumn div.content li.content li.more a{margin-top:10px;padding:0 8px}
+#tabcolumn div.content li.content li.more a:hover{text-decoration:none}
+
+/*地图*/
+#map div.content{padding:0;}
+/*图片新闻*/
+#news div.content{padding:0}
+
+/*报价*/
+#price div.content{padding:0;padding-bottom:10px}
+#price p.title{color:red;text-align:center}
+#price table thead td{background:#fff2b4;border:1px #fff solid}
+
+/*物流,招聘*/
+#logist .content,#job .content{height:192px;}
+
+/*行情*/
+#quot .content{padding:0;padding-bottom:10px}
+#quot thead td{background:#ddd;border:1px #fff solid}
+
+/*资源,产品搜索*/
+#resource table td{padding:0 4px;border:1px #ddd solid}
+
+#searchProduct div{padding-top:10px}
+#searchProduct label{margin:0 3px}
+#searchProduct input.w1{width:72px;}
+#searchProduct input.w2{width:80px;}
+#searchProduct input[type=submit]{padding:2px 3px;*padding:0}
+#searchProduct select.w1{width:90px;}
+
+
+/*供求*/
+#supply .content{height:240px;}
+#supply .content ul.right{display:block;width:240px;padding-left:10px;border-left:1px dashed #ccc}
+#supply .content li a.class{color:#e72a0c;padding:0 3px;}
+
+/*链接*/
+#link{margin-top:9px;}
+#link td{border:1px #ccc solid;text-align:left;padding-left:16px;height:24px;}
+#link td.cate{text-align:center;padding:0}

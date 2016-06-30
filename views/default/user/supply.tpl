@@ -1,0 +1,1 @@
+                <p><label>验证码: <input type="text" class="text" style="width:60px" name="code" /></label> <img src="<{$app}>/user/code?a" onclick="this.src+='a'" /> <font color="#aaaaaa" style="cursor:pointer" onclick="this.parentNode.getElementsByTagName('img')[0].src+='a'">看不清?</font></p>
